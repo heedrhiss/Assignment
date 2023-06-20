@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./1.3.0/css/line-awesome.css">
+<script>
+    var playerinfo = [
+            ['halaand',43],
+            ['osihmen',37],
+            ['mbappe', 34],
+            ['Vlahovic',31],
+            ['rashford', 26]
+    ];
+    var i= 0;
+    for(i=0; i<5; i++){
+        var j=0;
+        for(j=0; j<2; j++){
+            console.log(playerinfo[i][j])
+        }
+    }
+   
+</script>
+</head>
+<body>
+    <div class="mother-container">
+       <div class="product-img">
+        <img src="./Media/image-product-desktop.jpg" alt="">
+       </div>
+        <div class="product-details">
+            <h5>PERFUME</h5>
+            <h2>GABRIELLE <br>Essence Eau <br> De Parfum</h2>
+            <p>A floral, solar and voluptous interpretation composed by Olivier Polge, Perfumer creator for the House of Channel</p>
+            <div class="price">
+                <p class="new-price"> $149.99 </p>
+                <p class="old-price"><strike> $169.99 </strike></p>
+            </div>
+            <button class="btn"> <i class="las la-shopping-cart"></i>  Add to cart</button>
+        </div>
+    </div>
+</body>
+</html>
